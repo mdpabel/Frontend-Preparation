@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  padding-top: 50px;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+.suggestion__wrapper {
+  width: 600px;
+  max-width: 80%;
+  padding: 10px;
+}
+
+input {
+  height: 35px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-size: 12px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: green;
+}
+
+.suggestion__wrapper {
+  display: none;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.suggestion__visible {
+  display: block;
+}
+
+.search_list {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.search_list:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
