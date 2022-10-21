@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-images {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel-image {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+
+/* https://codepen.io/scottjehl/pen/jOEzYWw?editors=1010 */
