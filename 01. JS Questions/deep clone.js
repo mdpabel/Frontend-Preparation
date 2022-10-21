@@ -26,7 +26,14 @@ console.log(obj === copy);
 console.log(obj, copy);
 
 /**
- *
+-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries
+
+const entries = [
+  ['foo', 'bar'],
+  ['baz', 42]
+]
+Object.fromEntries(entries); // { foo: "bar", baz: 42 }
+
  */
 
 function deepClone(obj) {
