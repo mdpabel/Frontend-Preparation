@@ -1,0 +1,25 @@
+.accordion {
+  padding: 30px;
+}
+
+.accordion .continer {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+}
+
+.continer .body {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
