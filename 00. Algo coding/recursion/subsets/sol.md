@@ -1,0 +1,1 @@
+-A letter, either it will be part of the subset or it will be not
