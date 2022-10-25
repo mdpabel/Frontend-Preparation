@@ -1,3 +1,7 @@
+//#########################################################################//
+// this refers to the 'object' that is executing the current function. //
+//########################################################################//
+
 /**
  * If the new keyword is used when calling the function, this inside the function is a brand new object.
  */
