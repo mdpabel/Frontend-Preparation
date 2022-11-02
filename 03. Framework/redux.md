@@ -1,3 +1,5 @@
+[Code repo](https://stackblitz.com/edit/vitejs-vite-pswskh?file=main.js)
+
 ```js
 const store = reducer(state, action);
 // notify the subscriber
@@ -46,5 +48,3 @@ store.dispatch({
   },
 }); // Store updated 0
 ```
-
-<button onclick="https://stackblitz.com/edit/vitejs-vite-pswskh?file=main.js">Code Repo</button>
